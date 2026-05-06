@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Recette Gateau au chocolat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cake-picture">
+    </header>
+
+        <nav class="navbar-single-row">
+            <ul>
+                <li><a href="index.html" class="active">🏠 Home</a></li>
+                <li><a href="#ingredients">🍫 Ingredients</a></li>
+                <li><a href="#directions">📖 Directions</a></li>
+                <li><a href="#" id="theme-toggle">🌓 Light/Dark</a></li>
+                <li class="student-item">
+                    <span class="student-badge-solo">
+                    👩‍🍳 Student: Aitakil Sara</span>
+                </li>
+            </ul>
+    </nav>
+
+    <main class="container">
+        
+        <section class="recipe-card">
+            <div class="header-row">
+                <h1>Chocolate Cake</h1>
+                <div class="rating">★★★★★</div>
+            </div>
+            <p class="Description">A rich, moist and delicious chocolate cake for all occasions.</p>
+        </section>
+
+        
+        <section class="stats-card">
+            <div class="stats-header-row">
+                <h2 class="stats-title">⏱️ Time & Price</h2>
+
+                <div class="family-members-badge">
+                    <span>👨‍👩‍👧‍👦 Family Members</span>
+                    <input type="number" id="servings" value="4" min="1">
+                </div>
+            </div>
+
+            <div class="stats-divider"></div>
+            <div class="badges-container">
+                <div class="time-badge">⏲️ Prep Time: <span id="prep-time">15min</span></div>
+                <div class="time-badge">🎂 Cook-time: <span id="cook-time">20min</span></div>
+                <div class="time-badge">⏳ Total Time: <span id="total-time">35min</span></div>
+            </div>
+            <div class="total-price">💰 Total Price: <span id="total-price">1500</span>DZD</div>
+        </section>
+
+        <section id="ingredients" class="white-card-full">
+        <h2>🥣 Ingredients</h2>
+        <div class="stats-divider"></div>
+        
+        <div class="ingredients-grid-new">
+<div class="ingredient-category-card">
+    <h3 class="column-title">Fresh Products</h3>
+    <ul class="ingredients-list">
+        <li class="ingredient-item">
+            <span class="ingredient-name">🥚 Eggs</span>
+            <div class="ingredient-badge">
+                <span class="qty-badge" data-base-qty="4" data-unit="units">4 units</span>
+                <br>
+                <small><span class="price-badge" data-base-price="80">80 DZD</span></small>
+            </div>
+        </li>
+
+        <li class="ingredient-item">
+            <span class="ingredient-name">🌻 Vegetable Oil</span>
+            <div class="ingredient-badge">
+                <span class="qty-badge" data-base-qty="150" data-unit="ml">150 ml</span>
+                <br>
+                <small><span class="price-badge" data-base-price="150">150 DZD</span></small>
+            </div>
+        </li>
+
+        <li class="ingredient-item">
+            <span class="ingredient-name">🥛 Milk</span>
+            <div class="ingredient-badge">
+                <span class="qty-badge" data-base-qty="200" data-unit="ml">200 ml</span>
+                <br>
+                <small><span class="price-badge" data-base-price="80">80 DZD</span></small>
+            </div>
+        </li>
+
+        <li class="ingredient-item">
+            <span class="ingredient-name">🧈 Butter</span>
+            <div class="ingredient-badge">
+                <span class="qty-badge" data-base-qty="20" data-unit="g">20 g</span>
+                <br>
+                <small><span class="price-badge" data-base-price="30">30 DZD</span></small>
+            </div>
+        </li>
+
+        <li class="ingredient-item">
+            <span class="ingredient-name">🥛 Heavy Cream</span>
+            <div class="ingredient-badge">
+                <span class="qty-badge" data-base-qty="100" data-unit="ml">100 ml</span>
+                <br>
+                <small><span class="price-badge" data-base-price="120">120 DZD</span></small>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<div class="ingredient-category-card">
+    <h3 class="column-title">Dry Products</h3>
+    <ul class="ingredients-list">
+        <li class="ingredient-item">
+            <span class="ingredient-name">🍫 Dark Chocolate</span>
+            <div class="ingredient-badge">
+                <span class="qty-badge" data-base-qty="200" data-unit="g">200 g</span>
+                <br>
+                <small><span class="price-badge" data-base-price="450">450 DZD</span></small>
+            </div>
+        </li>
+
+        <li class="ingredient-item">
+            <span class="ingredient-name">🌾 Flour</span>
+            <div class="ingredient-badge">
+                <span class="qty-badge" data-base-qty="150" data-unit="g">150 g</span>
+                <br>
+                <small><span class="price-badge" data-base-price="60">60 DZD</span></small>
+            </div>
+        </li>
+
+        <li class="ingredient-item">
+            <span class="ingredient-name">🍬 Sugar</span>
+            <div class="ingredient-badge">
+                <span class="qty-badge" data-base-qty="150" data-unit="g">150 g</span>
+                <br>
+                <small><span class="price-badge" data-base-price="30">30 DZD</span></small>
+            </div>
+        </li>
+
+        <li class="ingredient-item">
+            <span class="ingredient-name">☕ Cacao Powder</span>
+            <div class="ingredient-badge">
+                <span class="qty-badge" data-base-qty="50" data-unit="g">50 g</span>
+                <br>
+                <small><span class="price-badge" data-base-price="150">150 DZD</span></small>
+            </div>
+        </li>
+
+        <li class="ingredient-item">
+            <span class="ingredient-name">🥄 Baking Powder</span>
+            <div class="ingredient-badge">
+                <span class="qty-badge" data-base-qty="10" data-unit="g">10 g</span>
+                <br>
+                <small><span class="price-badge" data-base-price="10">10 DZD</span></small>
+            </div>
+        </li>
+    </ul>
+</div>
+
+        </div>
+    </section>
+
+       <section class="card-directions">
+    <h2>👩‍🍳 Directions</h2>
+    
+            <p class="directions-subtitle">
+                🧁 For the Chocolate Cake:</p>
+
+        <ol class="directions-list">
+        <li>
+            <strong>Preheat the oven:</strong> 
+            Preheat your oven to 180°C. Lightly grease your cake pan with a small amount of butter and dust it with a thin layer of flour to ensure easy release.
+        </li>
+        <li>
+            <strong>Whisk eggs & sugar:</strong> 
+            In a large mixing bowl, vigorously whisk the whole eggs and sugar 
+            together until the mixture turns pale, slightly fluffy, and doubles in volume, slowly pour in the milk and vegetable oil, whisking gently to combine all the liquid ingredients.
+        </li>
+        <li>
+            <strong>Fold in dry ingredients:</strong> 
+            Sift the flour, cacao powder, and baking powder directly over the wet mixture. Fold gently to keep the batter light and completely lump-free.
+        </li>
+        <li>
+            <strong>Bake to perfection:</strong> 
+            Pour the batter into your prepared pan and bake for approximately 20 minutes. The center of the cake should remain slightly moist to keep it incredibly rich and fudgy!
+        </li>
+    </ol>
+
+            <p class="directions-subtitle">
+                🍫 For the Chocolate Ganache:</p>
+        
+                <ol class="directions-list">
+        <li>
+            <strong> Warm the cream:</strong> 
+            In a small saucepan, bring the heavy cream (100ml) to a gentle simmer over medium-low heat. Do not let it boil.
+        </li>
+        <li>
+            <strong>Make the ganache:</strong> 
+            Place the finely chopped dark chocolate (200g) in a heatproof bowl. Pour the warm heavy cream over the chocolate and let it sit undisturbed for 1 minute to melt.
+        </li>
+        <li>
+            <strong>Add butter & finish:</strong> 
+            Whisk the cream and chocolate gently from the center outward until a smooth, shiny glaze forms. Add the butter (20g) and stir until completely melted and glossy. 
+        </li>
+        <li>
+            <strong>Assemble:</strong> 
+            Pour the warm, silky ganache over your cooled chocolate cake, spreading it evenly with a spatula. Let it set before slicing and serving!
+        </li>
+    </ol>
+</section>
+    </main>
+
+    <footer>
+        <p>Created by Sara - All prices in DZD</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
